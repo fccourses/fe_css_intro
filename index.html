@@ -3,46 +3,44 @@
 
 <head>
   <meta charset="UTF-8">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
   <title>Document</title>
-  <style>
-    /*
-      Cелектор по типу тега: 0001
-    */
-    h1 {
-      font-size: 60px;
-      color: dodgerblue;
-    }
-
-    /*
-      Селектор по классу: 0010
-    */
-    .big-size {
-      font-size: 48px;
-      color: brown; 
-    }
-
-    /*
-      Селектор по id: 0100
-    */
-    #head1 {
-      color: red;
-    }
-    /*
-      Инлайн-стили: 1000
-    */
-  </style>
 </head>
 
 <body>
 
-  <h1 id="head1" class="big-size" style="color: blueviolet;font-size: 32px;">Heading 1</h1>
-  <h1>Heading 2</h1>
-  <h1 class="big-size">Heading 3</h1>
-  <h1>Heading 4</h1>
-  <h1>Heading 5</h1>
-  <h1 class="big-size">Heading 6</h1>
+  <h1>Main page header</h1>
 
-  <span class="big-size test">Span text 1</span>
+  <article class="main-container">
+    <h2 class="main-header">Head 1</h2>
+  </article>
+
+  <article class="main-container">
+    <h2 class="main-header second-header">Head 2</h2>
+    <p class="main-text">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo aspernatur repellendus eaque numquam, ex doloribus
+      voluptas ratione et magnam libero velit quis cum est facere cupiditate vitae dicta perferendis blanditiis? Ipsam,
+      aperiam? Eveniet quo laudantium quam expedita praesentium est non? Nostrum ipsa magni laboriosam doloribus vero
+      libero sed  eligendi possimus optio cumque minus quisquam similique, amet deserunt nam reprehenderit
+      voluptatibus necessitatibus, ipsam labore rerum dolor eius laborum! Excepturi minus necessitatibus, exercitationem
+      veniam error officiis libero id quas magnam eaque.
+    </p>
+  </article>
+
+  <a href="#" class="page-link">Lorem ipsum dolor sit.</a>
+
+  <article class="main-container">
+    <h2 class="main-header">Head 3</h2>
+  </article>
+
+  <button class="btn">login</button>
+  <button class="btn">Sign Up</button>
+
 </body>
 
 </html>
