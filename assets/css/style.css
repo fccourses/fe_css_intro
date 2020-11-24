@@ -19,13 +19,13 @@ body{
 }
 
 .block1{
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
-.margin-auto{
-  margin: 20px auto; /* Горизонтальное Выравниние по центру*/
-}
+.block2{
+  margin-top: -50px;
 
+}
 
 .block3{
   margin-top: 10px;
