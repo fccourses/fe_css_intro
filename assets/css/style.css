@@ -1,25 +1,30 @@
 * {
   box-sizing: border-box;
 }
-
 body{
-  margin: 0;
+  background-color: aquamarine;
 }
 
-.img {
-  display: inline-block;
-  width: 320px;
-  height: 320px;
-  border: 5px solid red;
-  margin: 20px auto;
-
+.profilePicture {
+  width: 120px;
+  height: 120px;
+  
   object-fit: cover;
-  object-position: top;
-
+  object-position: right;
   border-radius: 50%;
 
+  border: 5px solid red;
 }
 
-.object-pos-right{
-   object-position: right;
+.badPracticeProfilePicture {
+  width: 120px;
+  height: 120px;
+
+  background-image: url('../images/cat.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+
+  border-radius: 50%;
+  border: 5px solid red;
 }
