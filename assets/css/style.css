@@ -1,12 +1,22 @@
-ul{
-  /* list-style: ; */
-  
-  list-style-image: url('../images/account-circle.png');
-  list-style-type: disc;
-  list-style-position: inside;
-
+table{
+  width: 100%;
+  border-collapse: collapse;
 }
 
-ol{ 
-  list-style-type: none;
+caption{
+  text-align: left;
+  text-indent: 2em;
+}
+
+td {
+  border: 3px solid;
+  padding: 10px;
+}
+
+thead{
+  text-align: center;
+}
+
+tfoot{
+  text-align: right;
 }
