@@ -1,3 +1,12 @@
-h1{
-  font-size: 120px;
+ul{
+  /* list-style: ; */
+  
+  list-style-image: url('../images/account-circle.png');
+  list-style-type: disc;
+  list-style-position: inside;
+
+}
+
+ol{ 
+  list-style-type: none;
 }
