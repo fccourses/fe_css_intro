@@ -1,22 +1,62 @@
-table{
-  width: 100%;
-  border-collapse: collapse;
+.cards-container {
+  background-color: #5f9ea0;
 }
 
-caption{
-  text-align: left;
-  text-indent: 2em;
-}
+.card-wrapper{
+  max-width: 380px;
+  
+  border: 2px solid transparent;
+  outline: 2px solid rgb(155, 147, 147);
 
-td {
-  border: 3px solid;
-  padding: 10px;
-}
-
-thead{
+  font-family: sans-serif;
   text-align: center;
 }
 
-tfoot{
-  text-align: right;
+.card-bg {
+  height: 160px;
+  background-color:#E85B27 ;
+}
+
+.card-content {
+  padding: 10px;
+  padding-top: 0;
+  background-color: white;
+}
+
+
+.profile-picture {
+  --photo-size: 140px;
+
+  width: var(--photo-size);
+  height: var(--photo-size);
+
+  margin-top: calc( var(--photo-size) / 2 * -1 );
+  margin-bottom: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: right;
+}
+
+.user-card-name{
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+.card-btn {
+  margin: 10px 0;
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 6px 14px;
+}
+
+.small-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  
+  max-width: 80%;
+  margin: 0 auto;
+
+  font-size: 0.9em;
+  opacity: 0.7;
 }
