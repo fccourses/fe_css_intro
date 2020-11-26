@@ -1,19 +1,3 @@
-
-body{
-  margin: 0;
-}
-
-.wrapper{
-  box-sizing: border-box;
-  /* 
-  vh, vw
-  1vmin - 1 % от меньшей стороны viewport
-  1vmax - 1 % от большей стороны viewport
-  */
-
-  height: 95vmin;
-  width: 95vmin;
-
-  background-color: bisque;
-  border: 3px solid;
+h1{
+  font-size: 120px;
 }
