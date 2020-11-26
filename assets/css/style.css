@@ -1,23 +1,19 @@
-.container {
-  display: inline-block;
-  height: 200px;
-  width: 200px;
 
-  border: 4px solid red;
-
-  text-align: center;
-
-  color: white;
-  font-size: 60px;
-  background-color: blueviolet;
+body{
+  margin: 0;
 }
 
-.hidden-ver1{
-  opacity: 0;
-}
-.hidden-ver2{
-  display: none;
-}
-.hidden-ver3{
-  visibility: hidden;
+.wrapper{
+  box-sizing: border-box;
+  /* 
+  vh, vw
+  1vmin - 1 % от меньшей стороны viewport
+  1vmax - 1 % от большей стороны viewport
+  */
+
+  height: 95vmin;
+  width: 95vmin;
+
+  background-color: bisque;
+  border: 3px solid;
 }
