@@ -13,12 +13,9 @@ li {
   padding: 6px 12px;
 }
 
-.link:hover {
+.link:hover:not(button) {
   background-color: brown;
   color: white;
-}
-
-.navigation * {
 }
 
 .test {
