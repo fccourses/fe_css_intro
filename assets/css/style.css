@@ -1,8 +1,30 @@
-article ~ p {
-  font-size: 2em;
-  color: red;
+.card{
+  width: 400px;
+  height: 500px;
+
+  background-color: antiquewhite;
 }
 
-#test ~ p {
-  border: 5px solid green;
+.content{
+  padding-top: 300px;
+}
+
+.icons{
+  border: 3px solid black;
+  background-color: blanchedalmond;
+  text-align: center;
+  font-size: 0;
+}
+/* Элемент с классом .icon который идёт после элемента с классом .icon */
+.icon + .icon {
+  margin-left: 10px;
+}
+
+.icon{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+
 }
