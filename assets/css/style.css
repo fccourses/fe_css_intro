@@ -1,11 +1,13 @@
-li:first-child {
-  color: dodgerblue;
+
+/* 
+odd - нечётные элементы
+even - чётные элементы
+*/
+
+ul > li:nth-child(odd){
+  color: darkcyan;
 }
 
-li:last-child{
-  color: red;
-}
-
-body > ul:first-child > li:first-child{
-  background-color: green;
+ul > li:nth-child(even){
+  color: crimson;
 }
