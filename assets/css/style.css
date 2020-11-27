@@ -6,38 +6,18 @@ li {
   margin-top: 30px;
 }
 
-div:active{
-  background-color: aqua;
-}
-
-.link:active{
-  color: red;
-}
-
-/* div:focus{
-  outline: 5px solid black;
-  background-color: black;
-  color: white;
-} */
-
-.link {
+.page-link {
   display: inline-block;
   text-decoration: none;
   background-color: var(--main-accent-color);
   padding: 6px 12px;
 }
 
-/* .link:focus{
-  border: 5px solid green;
-}
- */
-/* .link:hover:not(button) {
-  background-color: brown;
+/* Непосещённые ссылки */
+.page-link:link{
   color: white;
-} */
-
-.test {
-  width: 50px;
-  height: 50px;
-  background-color: var(--main-accent-color);
+}
+/* Посещённые ссылки */
+.page-link:visited {
+  color: lightgreen;
 }
