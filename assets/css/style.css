@@ -6,11 +6,19 @@ li {
   margin-top: 30px;
 }
 
-div:focus{
+div:active{
+  background-color: aqua;
+}
+
+.link:active{
+  color: red;
+}
+
+/* div:focus{
   outline: 5px solid black;
   background-color: black;
   color: white;
-}
+} */
 
 .link {
   display: inline-block;
@@ -19,14 +27,14 @@ div:focus{
   padding: 6px 12px;
 }
 
-.link:focus{
+/* .link:focus{
   border: 5px solid green;
 }
-
-.link:hover:not(button) {
+ */
+/* .link:hover:not(button) {
   background-color: brown;
   color: white;
-}
+} */
 
 .test {
   width: 50px;
