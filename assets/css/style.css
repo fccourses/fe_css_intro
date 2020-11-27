@@ -1,10 +1,10 @@
-/* Селектор дочерних элементов */
+/* Селектор потомков */
 
-#id > p {
+#id p {
   color: dodgerblue;
   font-size: 3em;
 }
 
-#id > h2 {
-  font-size: 3em;
+#id > p {
+  color: red;
 }
