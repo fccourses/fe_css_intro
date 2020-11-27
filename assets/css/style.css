@@ -1,23 +1,7 @@
-:root {
-  --main-accent-color: dodgerblue;
+li:first-child {
+  color: dodgerblue;
 }
 
-li {
-  margin-top: 30px;
-}
-
-.page-link {
-  display: inline-block;
-  text-decoration: none;
-  background-color: var(--main-accent-color);
-  padding: 6px 12px;
-}
-
-/* Непосещённые ссылки */
-.page-link:link{
-  color: white;
-}
-/* Посещённые ссылки */
-.page-link:visited {
-  color: lightgreen;
+li:last-child{
+  color: red;
 }
