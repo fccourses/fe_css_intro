@@ -6,6 +6,12 @@ li {
   margin-top: 30px;
 }
 
+div:focus{
+  outline: 5px solid black;
+  background-color: black;
+  color: white;
+}
+
 .link {
   display: inline-block;
   text-decoration: none;
