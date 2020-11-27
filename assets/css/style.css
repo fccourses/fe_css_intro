@@ -1,10 +1,8 @@
-/* Селектор потомков */
-
-#id p {
-  color: dodgerblue;
-  font-size: 3em;
+article ~ p {
+  font-size: 2em;
+  color: red;
 }
 
-#id > p {
-  color: red;
+#test ~ p {
+  border: 5px solid green;
 }
